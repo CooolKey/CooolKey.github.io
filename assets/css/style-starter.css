@@ -7011,7 +7011,7 @@ div.ppt {
     width: 0;
     margin-left: -8px;
     border: solid transparent;
-    border-bottom-color: #4f9da6;
+    border-bottom-color: #bf6257;
     border-width: 8px;
     pointer-events: none;
   }
@@ -7055,6 +7055,81 @@ div.ppt {
 }
 
 
+.w3l-services-6-main-long{
+  background-color: #ffffff;
+}
+
+.w3l-services-6-main-long .story-gd-right {
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  /* display: grid; */
+  grid-gap: 30px;
+  padding-left: 120px;
+  /* padding-top: 120px; */
+  /* background-color: #000; */
+}
+
+.w3l-services-6-main-long .serve-6-hny h6 {
+  color: #233142;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-left: 120px;
+  /* margin-left: 30%; */
+  /* width: 100%; */
+  /* background-color: #000; */
+}
+
+.w3l-services-6-main-long .serve-6-hny p{
+  margin-left: 120px;
+  /* width: 100%; */
+}
+
+.w3l-services-6-main-long .serve-6-hny h6 a {
+  color: #233142;
+}
+
+.w3l-services-6-main-long .serve-6-hny span.fa {
+  color: #CDD8E5;
+  font-size: 40px;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+.w3l-services-6-main-long .serve-6-hny h6 a:hover {
+  /* color: #972a2a; */
+}
+
+.w3l-services-6-main-long .serve-6-hny:hover span.fa {
+  /* color: #4f9da6; */
+}
+
+
+
+@media (max-width: 991px) {
+  .w3l-services-6-main .story-gd-right {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    display: grid;
+    grid-gap: 20px;
+    padding-left: 15px;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .w3l-services-6-main .story-gd-right {
+    grid-template-columns: 1fr;
+    align-items: center;
+    display: grid;
+    grid-gap: 20px;
+    padding-left: 15px;
+    margin-top: 40px;
+  }
+}
+
+
 .w3l-services-6-main-2{
   background-color: #EEF2F6;
 }
@@ -7079,23 +7154,6 @@ div.ppt {
   /* margin-left: 30%; */
   /* width: 100%; */
   /* background-color: #000; */
-}
-
-.w3l-services-6-main-long .serve-6-hny h6 {
-  color: #233142;
-  font-size: 20px;
-  line-height: 30px;
-  font-weight: 700;
-  margin-top: 0px;
-  margin-left: 120px;
-  /* margin-left: 30%; */
-  /* width: 100%; */
-  /* background-color: #000; */
-}
-
-.w3l-services-6-main-long .serve-6-hny p{
-  margin-left: 120px;
-  /* width: 100%; */
 }
 
 .w3l-services-6-main-2 .serve-6-hny h6 a {
@@ -7186,6 +7244,8 @@ div.ppt {
 .w3l-services-6-main .serve-6-hny:hover span.fa {
   /* color: #4f9da6; */
 }
+
+
 
 @media (max-width: 991px) {
   .w3l-services-6-main .story-gd-right {
